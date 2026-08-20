@@ -1,0 +1,17 @@
+# Environment variables
+.env
+
+# SQLite Database & Data
+data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.json
+
+# Logs & Temp files
+*.log
+*.tar.gz
+*.tmp
+*.pdf
+*.csv
