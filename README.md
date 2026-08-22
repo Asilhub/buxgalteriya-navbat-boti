@@ -43,8 +43,8 @@
 ### 1. Токен ва Гуруҳ ID созламаси (.env)
 [.env](file:///home/asilbek/Projects/telegram_bots/Jamoldn%20aka/.env) файлида бот токени ва бухгалтерия гуруҳи ID сини кўрсатинг:
 ```env
-BOT_TOKEN=7463730449:AAGPX88P7-pL2fBE-XOVX1VkzLMTt2Oiyvo
-GROUP_ID=-1004367218267
+BOT_TOKEN=YOUR_BOT_TOKEN_HERE
+GROUP_ID=-100XXXXXXXXXX
 ```
 
 ### 2. Long Polling орқали ишга тушириш:

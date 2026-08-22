@@ -28,8 +28,8 @@ class Config {
             }
         }
 
-        self::$botToken = getenv('BOT_TOKEN') ?: getenv('BotToken') ?: '7463730449:AAGPX88P7-pL2fBE-XOVX1VkzLMTt2Oiyvo';
-        self::$groupId  = getenv('GROUP_ID') ?: '-1004367218267';
+        self::$botToken = getenv('BOT_TOKEN') ?: getenv('BotToken') ?: '';
+        self::$groupId  = getenv('GROUP_ID') ?: '';
         self::$apiUrl   = "https://api.telegram.org/bot" . self::$botToken . "/";
         self::$dbPath   = dirname(__DIR__) . '/data/database.sqlite';
 
